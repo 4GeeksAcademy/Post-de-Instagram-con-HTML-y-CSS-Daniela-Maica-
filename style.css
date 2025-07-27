@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+/* Contenedor principal del post */
+.post-container {
+  background: #ffffff;
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+/* Encabezado del post */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+/* Información del usuario */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info .perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.usuario {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Icono de menú */
+.post-header i {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Imagen del post */
+.post-img {
+  width: 100%;
+  position: relative;
+  aspect-ratio: 0.5 / 0.5; 
+  overflow: hidden;
+}
+
+.post-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+
+/* Cuerpo del post */
+.post-body {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.post-body p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+/* Iconos de interacción */
+.post-iconos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+  font-size: 20px;
+ padding-left: 0px;
+
+}
+
+.iconos-izquierda {
+  display: flex;
+  gap: 10px;
+}
